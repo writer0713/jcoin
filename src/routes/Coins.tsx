@@ -1,3 +1,4 @@
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import { useQuery } from 'react-query';
 import { Link } from 'react-router-dom';
@@ -102,4 +103,4 @@ function Coins() {
   );
 }
 
-export default Coins;
+export default React.memo(Coins);
